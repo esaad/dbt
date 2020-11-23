@@ -1,0 +1,12 @@
+version: 2
+
+models:
+    - name: nonulls
+      description: "Creates a table with no null rows"
+      columns:
+          - name: customer_id
+            description: "Unique column"
+            tests:
+                - unique
+                - not_null
+                - at_least_one
