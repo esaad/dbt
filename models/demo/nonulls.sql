@@ -6,6 +6,6 @@ with nonulls as (
     first_order_date is not null
     and
     most_recent_order_date is not null 
-),
+)
 
 select * from nonulls
